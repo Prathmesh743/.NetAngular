@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T06:41:17.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="cfuW7Gw2SdLKr-LyHT1K" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T07:31:47.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="9YnXFHBhTkT5nGCv9x0f" type="github">
   <diagram id="hwVPqBubIUXjGn2VFmsJ" name="Page-1">
     <mxGraphModel dx="794" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,6 +70,12 @@
         </mxCell>
         <mxCell id="774eNts4veikpErZd26d-22" value="Add All Records Into ProcessFamily List" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="190" y="1120" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="774eNts4veikpErZd26d-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="774eNts4veikpErZd26d-29" target="774eNts4veikpErZd26d-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="774eNts4veikpErZd26d-29" value="&lt;b&gt;We have ProcessFamily List and FamilyFailed List We used This To UpdateStatus Of Interim Db Table which&amp;nbsp; includes Family Table(Here we update to all status incudes &quot;Error&quot;,&quot;Failed&quot;,&quot;New&quot;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1260" width="227.5" height="227.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
