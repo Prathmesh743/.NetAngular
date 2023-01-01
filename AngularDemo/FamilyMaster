@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T05:14:27.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="p3Q5KPsZrwgZjGUMuPOw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T05:16:58.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="YCx8QR1gtJeM39TJtQ5e" type="github">
   <diagram id="ZDHQBZ4T1dewx18i5tsp" name="Page-1">
     <mxGraphModel dx="794" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         <mxCell id="kyV516RBaeSwxnSp4oYa-6" value="Get Family Data From Main Db(If exists) into MasterData Store" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="550" y="80" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kyV516RBaeSwxnSp4oYa-8" value="Get Family Data Into Delta Family(Compare Family and FamilyOld Table Of Interim DB and take those Records which are new and not Present in Family Old Table ) Here Some Records Might be same but we compare all fields Even if One field Found Different We take Those Records (Ex 121-code has Different Description)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="kyV516RBaeSwxnSp4oYa-8" value="Get Family Data Into Delta Family(Compare Family and FamilyOld Table Of Interim DB and take those Records which are new and not Present in Family Old Table ) Here Some Records Might be same but we compare all fields Even if One field Found Different We take Those Records (Ex 121-code has Different Description)&amp;nbsp;&lt;br&gt;&lt;br&gt;Then Put Only Unique Records into &lt;u style=&quot;font-weight: bold;&quot;&gt;UniqueRecords &lt;/u&gt;By Comparing TimeStamps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="180" y="240" width="381" height="140" as="geometry" />
         </mxCell>
         <mxCell id="kyV516RBaeSwxnSp4oYa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyV516RBaeSwxnSp4oYa-11">
