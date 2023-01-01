@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T06:39:46.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="OIIg9uQ64E5c1UKoK4D9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T06:41:17.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="cfuW7Gw2SdLKr-LyHT1K" type="github">
   <diagram id="hwVPqBubIUXjGn2VFmsJ" name="Page-1">
     <mxGraphModel dx="794" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,9 +42,9 @@
         <mxCell id="774eNts4veikpErZd26d-13" value="We Have Delta Family Which Holds Data From &lt;b&gt;&lt;u&gt;Family&lt;/u&gt;&lt;/b&gt; And &lt;b&gt;&lt;u&gt;FamilyOld&lt;/u&gt;&lt;/b&gt; Table of &lt;b&gt;&lt;u&gt;Interim &lt;/u&gt;&lt;/b&gt;DB(Here We compare Each Row Field With of Both Family and Family Old and if we found they are different Then we get this data into Variable &quot;&lt;b&gt;&lt;u&gt;DeltaFamily&quot;&lt;/u&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="440" y="430" width="335" height="142.5" as="geometry" />
         </mxCell>
-        <mxCell id="774eNts4veikpErZd26d-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="774eNts4veikpErZd26d-15">
+        <mxCell id="774eNts4veikpErZd26d-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="774eNts4veikpErZd26d-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="1180.666748046875" as="targetPoint" />
+            <mxPoint x="668" y="736.6666259765625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="774eNts4veikpErZd26d-15" value="1]Here We Compare MAster Data Store and Delta Family for Same Records So If we found that Then If we found that in Existing FamlySegemt of Main Db then we delete That Record From Main Db" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -60,7 +60,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="774eNts4veikpErZd26d-18" value="Then We Add Records Into Insert List (Only Protective Records) IF that Record Not Already Exists in InsertList" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="350" y="900" width="220" height="220" as="geometry" />
+          <mxGeometry x="370" y="900" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="774eNts4veikpErZd26d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="774eNts4veikpErZd26d-22" target="774eNts4veikpErZd26d-17">
           <mxGeometry relative="1" as="geometry" />
@@ -68,7 +68,7 @@
         <mxCell id="774eNts4veikpErZd26d-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="774eNts4veikpErZd26d-22" target="774eNts4veikpErZd26d-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="774eNts4veikpErZd26d-22" value="Add All Records Into ProcessFamily List" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="774eNts4veikpErZd26d-22" value="Add All Records Into ProcessFamily List" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="190" y="1120" width="170" height="130" as="geometry" />
         </mxCell>
       </root>
